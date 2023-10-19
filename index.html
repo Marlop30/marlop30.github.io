@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="CSS/estilos.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images\LOGO.jpg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images\LOGO1.jpg"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Portafolio Personal</title>
+  </head>
+
+  <body>
+   
+<nav>
+      <h1>MARTIN lOPEZ SALGADO</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Sobre Mi</a></li>
+        <li><a href="#skills" class="nav-link">Conocimientos</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+        <li><a href="CV/Martin Lopez.pdf" download>CV</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <ion-icon class="times" name="close-outline"></ion-icon>
+      </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="images/Cv.jpg"
+        alt=""
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Informacion Personal</h2>
+        <p class="bio-text">Fecha de Nacimiento: 05/03/1997</p>
+          <p>Telefono: 5586760323</p>
+          <p>Correo: marlop_sal97@hotmail.com</p>
+          <p>Dirección:</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15055.680202148358!2d-99.6027002839267!3d19.37261417000943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d274f988860ee5%3A0xd116b42f7e4bfc1a!2sS.%20Mateo%20288%2C%20Villas%20Santin%2C%2050214%20San%20Jos%C3%A9%20Guadalupe%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1697521755770!5m2!1ses-419!2smx" 
+          width="350" height="350" style="border:0;" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    
+
+
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>Sobre Mi</h2>
+      <p>
+        Que tal!! Me presento mi nombre es Martin Lopez Salgado y actualmete estoy cursando el Quintocuatrimestre de la carrera
+        en Ingenieria en Sistemas Computaciones, cuento con un carrera tecnica en Programacion.
+        Desde que empece con la carrera simpre me ha gustado asi como todo lo relaciona, siempre trato de poder aprender 
+        nuevas cosas siguiendo un ritmo que me permita autoaprender al igual que con los conocimientos que me dan los profesores poder complementar.
+        <p>
+        He tomado algunos cursos que ayudan a poder abarcar mayores campos asi mimso poder tener un mejor panorama 
+        de lo que quiero aprender al igual de lo que quiero ejercer
+        <li><a href="cursos/Certificado - Curso de render en el servidor y React Server Components.pdf">Curso de render en el servidor y React Server Components</a></li>
+        <li><a href="cursos/Certificado - Curso de Introducción a las Pruebas de Software (QA).pdf">Curso de Introducción a las Pruebas de Software (QA)</a></li>
+        <li><a href="cursos/Certificado - Curso de React Native.pdf">Curso de React Native</a></li>
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Conocimientos</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Mis Proyectos</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="images/BotonMagic.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Magic social share menu</h3>
+          <p class="project-details">
+            En resumen, el objetivo es proporcionar a los usuarios de la página una forma sencilla de acceder a los perfiles de la entidad en diversas redes sociales, como Facebook, WhatsApp, Twitter, Reddit, LinkedIn, Instagram, GitHub y YouTube, mediante la representación gráfica. de los íconos correspondientes.
+          </p>
+          <a href="https://mlsportafolio.000webhostapp.com/" target="_blank" class="project-link">Vista</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/Formulario.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Formulario</h3>
+          <p class="project-details">
+            Es solo la estructura básica del formulario de inicio de sesión, y la funcionalidad real (verificación de credenciales, redirección, validación, etc.) debe implementarse en el lado del servidor y con la ayuda de JavaScript para que el formulario funciona como se espera
+          </p>
+          <a href="http://formularib.infinityfreeapp.com/?i=1" target="_blank" class="project-link">Vista</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/C.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Bootstrap Login</h3>
+          <p class="project-details">
+            El formulario integra etiquetas HTML para la estructura, campos de entrada para la entrada de datos, un botón para enviar el formulario y etiquetas meta para proporcionar información adicional sobre la página. Además, se aplican estilos a través de una hoja de estilos y se utiliza una fuente personalizada desde Google Fonts para mejorar el aspecto visual del formulario.
+          </p>
+          <a href="http://portafoliomartin.infinityfreeapp.com/" target="_blank" class="project-link">Vista</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Contactame</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Correo</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mensaje</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.facebook.com/MartLopSal/" target="_blank"
+        ><img
+        src="icons/icons8-facebook-rodeado-de-círculo.gif"
+        alt="Facebook"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://web.whatsapp.com/5586760323" target="_blank"
+        ><img
+        src="icons/icons8-whatsapp.gif"
+        alt="Whatsapp"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+        >
+         <img 
+          src="icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/marttslop/" target="_blank"
+        ><img
+          src="icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/martín-lópez-924a80264" target="_blank"
+        ><img
+          src="icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/" target="_blank"
+        ><img src="icons/icons8-github.gif" 
+        alt="Github" 
+        loading="lazy"
+        class="socicon"
+      /></a>
+      <a href="https://www.reddit.com/user/Martin_Lopez97/" target="_blank"
+        ><img src="icons/icons8-reddit.gif" 
+        alt="Reddit" 
+        loading="lazy"
+        class="socicon"
+      /></a>
+    </div>
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <body>
+
+
+      
+
+    
+    <!-- Footer section -->
+    <footer>
+      
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="js/app.js"></script>
+    
+    
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+   
+     
+</html>
